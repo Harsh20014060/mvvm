@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
         binding.addbtnquotes.setOnClickListener {
             val quote = Quotes(0,"This is testing","Mr. Bot")
             mainViewModel.insertQuote(quote)
-            Toast.makeText(this@MainActivity,"added",Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@MainActivity,"data added",Toast.LENGTH_SHORT).show()
         }
     }
 }
